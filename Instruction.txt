@@ -1,0 +1,34 @@
+
+####  Python 3 
+Install Python 3 in your system. [click here](https://www.python.org/downloads/)
+python get-pip.py
+
+#### Create a Virtual Environment.
+- Create a Virtual Environment using **Anaconda Navigator** with Python version 3.7+ 
+- Open Terminal with the activated environment.
+
+#### Installing Dependencies in Virtual Environment
+- Make sure environment is activated. 
+- Using Requirements File. **(Recommended)**
+```
+pip install -r requirements.txt
+```
+- Individually installing packages.
+	##### ***Flask | OpenCv | Stepic | Wave | Stegano***
+```
+pip install Flask opencv-python stepic wave stegano
+```
+
+#### Running Application
+Make sure environment is activated, Now run:
+```
+python main.py
+```
+Open the localhost link - (http://127.0.0.1:5000/),this will open the App on your browser.
+You can use the sample files for testing in `test_files` folder.
+
+
+
+Note:
+If the file may not download.
+so, sometimes the store in the modes folder => catogory => under the static folder

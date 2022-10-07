@@ -1,0 +1,17 @@
+certifi
+click
+colorama
+crayons
+Flask
+itsdangerous
+Jinja2
+MarkupSafe
+numpy
+opencv-python
+piexif
+Pillow
+stegano
+stepic
+Wave
+Werkzeug
+wincertstore
