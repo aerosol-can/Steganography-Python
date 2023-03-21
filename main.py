@@ -5,14 +5,18 @@ from modes.Audio.audio import audio
 from modes.Text.text import text
 from modes.Video.video import video
 
+stega_path = 'input_media'
 
-UPLOAD_IMAGE_FOLDER = 'modes\\Image\\static'
+# stega_path = "C:\\Users\\USER\\Desktop"
+
+
+UPLOAD_IMAGE_FOLDER = stega_path
 IMAGE_CACHE_FOLDER = 'modes\\Image\\__pycache__'
-UPLOAD_TEXT_FOLDER = 'modes\\Text\\static'
+UPLOAD_TEXT_FOLDER = stega_path
 TEXT_CACHE_FOLDER = 'modes\\Text\\__pycache__'
-UPLOAD_AUDIO_FOLDER = 'modes\\Audio\\static'
+UPLOAD_AUDIO_FOLDER = stega_path
 AUDIO_CACHE_FOLDER = 'modes\\Audio\\__pycache__'
-UPLOAD_VIDEO_FOLDER = 'modes\\Video\\static'
+UPLOAD_VIDEO_FOLDER = stega_path
 VIDEO_CACHE_FOLDER = 'modes\\Video\\__pycache__'
 
 
